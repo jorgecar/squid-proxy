@@ -6,14 +6,14 @@ A proxy server configured to hide the client's IP.
 
 To get a local copy up and running follow these simple steps.
 
-### Prerequisites
+### Prerequisites
 
 Make sure you have an updated version of Docker
 
     $ docker --version
     Docker version 19.03.12, build 48a66213fe
 
-### Installation
+### Installation
 
 Clone the repo:
     $ git clone git@github.com:jorgecar/squid-proxy.git
