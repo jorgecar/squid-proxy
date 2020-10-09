@@ -16,9 +16,13 @@ Make sure you have an updated version of Docker
 ### Installation
 
 Clone the repo:
+    
     $ git clone git@github.com:jorgecar/squid-proxy.git
 
 ### Usage
 
 Run docker:
+    
     $ docker-compose up -d
+    
+Now you have your proxy server running on the port 3128.
