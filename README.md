@@ -21,7 +21,9 @@ Clone the repo:
 
 ### Usage
 
-Run docker:
+    sudo docker run -v $(pwd)/squid.conf:/etc/squid/squid.conf -p 3128:3128 sameersbn/squid:3.5.27-
+
+Run with docker-compose:
     
     $ docker-compose up -d
     
